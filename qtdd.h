@@ -33,9 +33,29 @@ private slots:
     void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
 
 private:
+    // Перечисление шагов для ISO Mode
+    enum class IsoStep {
+        None,
+        Unmount,
+        Partition,
+        Format,
+        MountISO,
+        MountTarget,
+        CopyFiles,
+        Cleanup
+    };
+
+    void startIsoPipeline();
+    void executeNextIsoStep();
+
     Ui::qtdd *ui;
     QProcess *process;
     qint64 totalBytes = 0;
+
+    IsoStep currentIsoStep = IsoStep::None;
+    QString currentImagePath;
+    QString currentDevicePath;
+    QString targetPartitionPath;
 };
 
 #endif // QTDD_H
