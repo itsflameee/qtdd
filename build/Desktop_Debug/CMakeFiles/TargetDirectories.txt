@@ -1,0 +1,9 @@
+/home/itsflame/qtdd/build/Desktop_Debug/CMakeFiles/qtdd.dir
+/home/itsflame/qtdd/build/Desktop_Debug/CMakeFiles/edit_cache.dir
+/home/itsflame/qtdd/build/Desktop_Debug/CMakeFiles/rebuild_cache.dir
+/home/itsflame/qtdd/build/Desktop_Debug/CMakeFiles/list_install_components.dir
+/home/itsflame/qtdd/build/Desktop_Debug/CMakeFiles/install.dir
+/home/itsflame/qtdd/build/Desktop_Debug/CMakeFiles/install/local.dir
+/home/itsflame/qtdd/build/Desktop_Debug/CMakeFiles/install/strip.dir
+/home/itsflame/qtdd/build/Desktop_Debug/CMakeFiles/qtdd_autogen_timestamp_deps.dir
+/home/itsflame/qtdd/build/Desktop_Debug/CMakeFiles/qtdd_autogen.dir
